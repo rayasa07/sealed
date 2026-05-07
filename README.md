@@ -1,6 +1,6 @@
 # Sealed — Vickrey NFT Auctions on Solana × Arcium MPC
 
-> **Live:** _Coming soon (Vercel deploy pending)_ · **Network:** Solana Devnet
+> **Live:** https://sealed-rayasa07s-projects.vercel.app · **Network:** Solana Devnet
 
 ---
 
