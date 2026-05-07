@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+**/.env.local
+app/.env.local
+app/.env*.local
+
+# Rust / Solana build artifacts — ignore contents but preserve idl and types
+target/*
+!target/idl/
+!target/idl/**
+!target/types/
+!target/types/**
+
+# Next.js
+.next/
+**/.next/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# Wallet / keypair files
+arcium-nft.json
+*-keypair.json
+
+# Anchor local state
+.anchor
+
+# Rust backup files
+**/*.rs.bk
+
+# Yarn PnP
+.yarn
+
+# Arcium temp build
+encrypted-ixs/arcis_temp_target
+encrypted-ixs/src/main.rs
+
+# Compiled artifacts directory
+artifacts/
+
+# Devnet run logs / proof documents (may contain RPC URLs or tx signatures)
+devnet_e2e_proof.txt
